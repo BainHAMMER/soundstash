@@ -1,0 +1,43 @@
+# Local user library, exports, caches & downloaded audio
+local/
+downloads/
+*.mp3
+*.m4a
+*.opus
+*.flac
+*.part
+*.ytdl
+
+# Personal track lists & state files (if placed in root)
+*spotify*.csv
+*Spotify*.csv
+spotify.txt
+yandex.txt
+youtube.txt
+vk.txt
+tracks.txt
+tracks.json
+tracks_without_youtube.txt
+downloaded_archive.txt
+failed_tracks.txt
+ytm_upload_state.json
+ytm_not_found.txt
+create_playlist_console.js
+
+# Auth & secrets
+.env
+cookies.txt
+ytmusic_cookie.txt
+headers.txt
+browser.json
+oauth.json
+
+# Python virtual environment & caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
