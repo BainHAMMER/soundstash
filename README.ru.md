@@ -282,6 +282,19 @@ python upload_ytm.py --title "Из старых запасов (Spotify + Янд
 
 ---
 
+## 🤝 Используемые библиотеки и лицензии (Credits)
+
+Весь код в этом репозитории (`merge.py`, `download.py`, `upload_ytm.py` и `extractors/*.js`) написан с нуля и распространяется под лицензией [MIT License](LICENSE).
+
+Проект использует (без включения их исходного кода в состав репозитория) следующие open-source инструменты и библиотеки:
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — *The Unlicense* (поиск и извлечение аудиопотоков)
+- **[ytmusicapi](https://github.com/sigma67/ytmusicapi)** — *MIT License* (поиск по каталогу и работа с YouTube Music)
+- **[python-dotenv](https://github.com/theskumar/python-dotenv)** — *BSD-3-Clause License* (чтение настроек из `.env`)
+- **[FFmpeg](https://ffmpeg.org/)** — *LGPL v2.1+ / GPL v2+* (внешняя системная утилита, вызываемая для конвертации аудио и вшивания тегов/обложек)
+- Исходное вдохновение идеей локального загрузчика Spotify + YouTube: **[4ngel2769/spotitube](https://github.com/4ngel2769/spotitube)** (*MIT License*).
+
+---
+
 ## 📄 Лицензия
 MIT License — см. [LICENSE](LICENSE).
 

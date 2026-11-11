@@ -282,6 +282,19 @@ python upload_ytm.py --title "From Old Stash (Spotify + Yandex + VK)"
 
 ---
 
+## 🤝 Credits & Third-Party Licenses
+
+All code in this repository (`merge.py`, `download.py`, `upload_ytm.py`, and `extractors/*.js`) was written from scratch and is released under the [MIT License](LICENSE).
+
+This project relies on (without bundling) the following open-source packages and tools:
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — *The Unlicense* (audio search & extraction)
+- **[ytmusicapi](https://github.com/sigma67/ytmusicapi)** — *MIT License* (YouTube Music catalog search & API helpers)
+- **[python-dotenv](https://github.com/theskumar/python-dotenv)** — *BSD-3-Clause License* (`.env` configuration loader)
+- **[FFmpeg](https://ffmpeg.org/)** — *LGPL v2.1+ / GPL v2+* (external system binary invoked via CLI for audio transcoding and metadata/thumbnail embedding)
+- Initial inspiration for a local Spotify + YouTube downloader workflow: **[4ngel2769/spotitube](https://github.com/4ngel2769/spotitube)** (*MIT License*).
+
+---
+
 ## 📄 License
 MIT License — see [LICENSE](LICENSE).
 
